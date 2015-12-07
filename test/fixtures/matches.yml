@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  year: MyString
+  week: 1
+  match_num: 1
+  team1: MyString
+  team2: MyString
+  home_team: MyString
+  spread: 9.99
+  favored_team: MyString
+  date: MyString
+  time: MyString
+  MatchWeek_id: 
+
+two:
+  year: MyString
+  week: 1
+  match_num: 1
+  team1: MyString
+  team2: MyString
+  home_team: MyString
+  spread: 9.99
+  favored_team: MyString
+  date: MyString
+  time: MyString
+  MatchWeek_id: 

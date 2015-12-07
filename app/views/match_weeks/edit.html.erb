@@ -1,0 +1,99 @@
+<h1>Edit Weekly Matches</h1>
+<%= form_for @match_week do |f| %>
+  <% if !@match[0].nil? %>
+  <%= f.fields_for @match[0] do |builder| %>
+    <%= builder.select :year, MatchesController::YEARS, {}, :name => "year" %>
+    <%= builder.select :week, MatchesController::WEEKS , {}, :name => "week" %>
+    <br>
+    <br>
+    <%# MATCH 1 %>
+    <b><%= builder.label 'Match 1' %></b>
+    <br>
+    <%= builder.label 'Team 1:' %>
+    <%= builder.select :team1, MatchesController::TEAMS, {}, :name => "match1_team1" %>
+    <br>
+    <%= builder.label 'Team 2:' %>
+    <%= builder.select :team2, MatchesController::TEAMS, {}, :name => "match1_team2" %>
+    <br>
+    <%= builder.label 'Home:' %>
+    <%= builder.text_field :home_team, :name => "match1_hometeam" %>
+    <br>
+    <%= builder.label 'Spread: ' %>
+    <%= builder.text_field :spread, :name => "match1_spread" %>
+    <br>
+    <%= builder.label 'Favored: ' %>
+    <%= builder.text_field :favored_team, :name => "match1_favored" %>
+    <br>
+    <%= builder.label 'Date: ' %>
+    <%= builder.text_field :date, :name => "match1_date" %>
+    <br>
+    <%= builder.label 'Time: ' %>
+    <%= builder.text_field :time, :name => "match1_time" %>
+  <% end %>
+  <% end %>
+  <br>
+  <br>
+   <% if !@match[1].nil? %>
+   <%= f.fields_for @match[1] do |builder| %>
+  	<%# MATCH 2 %>
+	  <b><%= builder.label 'Match 2' %></b>
+	  <br>
+	  <%= builder.label 'Team 1:' %>
+	  <%= builder.select :team1, MatchesController::TEAMS, {}, :name => "match2_team1" %>
+	  <br>
+	  <%= builder.label 'Team 2:' %>
+	  <%= builder.select :team2, MatchesController::TEAMS, {}, :name => "match2_team2" %>
+	  <br>
+	  <%= builder.label 'Home:' %>
+	  <%= builder.text_field :home_team, :name => "match2_hometeam" %>
+	  <br>
+	  <%= builder.label 'Spread: ' %>
+	  <%= builder.text_field :spread, :name => "match2_spread" %>
+	  <br>
+	  <%= builder.label 'Favored: ' %>
+	  <%= builder.text_field :favored_team, :name => "match2_favored" %>
+	  <br>
+	  <%= builder.label 'Date: ' %>
+	  <%= builder.text_field :date, :name => "match2_date" %>
+	  <br>
+	  <%= builder.label 'Time: ' %>
+	  <%= builder.text_field :time, :name => "match2_time" %>
+   <% end %>
+   <% end %>
+   <% if !@match[2].nil? %>
+   <%= f.fields_for @match[2] do |builder| %>
+ 	  <%# MATCH 3 %>
+	    <b><%= builder.label 'Match 3' %></b>
+	    <br>
+	    <%= builder.label 'Team 1:' %>
+	    <%= builder.select :team1, MatchesController::TEAMS, {}, :name => "match3_team1" %>
+	    <br>
+	    <%= builder.label 'Team 2:' %>
+	    <%= builder.select :team2, MatchesController::TEAMS, {}, :name => "match3_team2" %>
+	    <br>
+	    <%= builder.label 'Home:' %>
+	    <%= builder.text_field :home_team, :name => "match3_hometeam" %>
+	    <br>
+	    <%= builder.label 'Spread: ' %>
+	    <%= builder.text_field :spread, :name => "match3_spread" %>
+	    <br>
+	    <%= builder.label 'Favored: ' %>
+	    <%= builder.text_field :favored_team, :name => "match3_favored" %>
+	    <br>
+	    <%= builder.label 'Date: ' %>
+	    <%= builder.text_field :date, :name => "match3_date" %>
+	    <br>
+	    <%= builder.label 'Time: ' %>
+	    <%= builder.text_field :time, :name => "match3_time" %>
+   <% end %>
+   <% end %>
+   <br>
+   <br>
+   <%= f.submit "Save" %>
+<% end %>
+
+
+
+<br>
+<br>
+<%= link_to 'Main Page', controller: 'welcome' %>

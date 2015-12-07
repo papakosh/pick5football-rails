@@ -1,0 +1,26 @@
+
+<% @matches.each do |match| %>
+		<% if match.match_num == 1 %>
+			<b><%= "Week #{match.week}" %></b>
+			<br>
+			<br>
+		<% end %>
+
+		<b><%= "Match #{match.match_num}" %></b>
+		<br>
+		<%= match.team1 %>
+		<br>
+		<%= match.team2 %>
+		<br>
+		<%= match.home_team %>
+		<br>
+		<%= match.spread %>
+		<br>
+		<%= match.favored_team %>
+		<br>
+		<%= match.date %>
+		<br>
+		<%= match.time %>
+		<br><br>
+		
+	<% end %> 
