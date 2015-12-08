@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   
   resources :match_weeks do
     get 'to_xml'
+    get 'to_html'
      
     #post 'match_weeks', :action => :to_xml
     #resources :matches

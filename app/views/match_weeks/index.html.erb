@@ -6,14 +6,16 @@
 		<th>Year</th>
 		<th>Week</th>
 		<th># of Matches</th>
-		<th colspan="3">Actions</th>
+		<th colspan="4">Actions</th>
 			<% @match_weeks.each do |match_week| %>
 				<tr>
 					<td align="center"><%= "#{match_week.year}" %></td>
-					<td align="center"><%= "#{match_week.week.capitalize}" %></td>
+					<td align="center"><%= "#{match_week.week.capitalize}" %></a></td>
 					<td align="center"><%= "#{match_week.matches.count}" %></td>
 					<td><%= link_to 'Edit', edit_match_week_path(match_week) %></td>
-					<td><%= link_to 'Create HTML', controller: 'welcome' %></td>
+					<td><%= link_to 'Delete', match_week_path(:id => match_week.id), method: :delete, data: {confirm: 'Are you sure?'}  %>
+   
+					<td><%= link_to 'Create HTML', match_week_to_html_path(:match_week_id => match_week.id) %></td>
 					<td><%= link_to 'Create XML',match_week_to_xml_path(:match_week_id => match_week.id) %></td>
 				</tr>
 			<% end %>  
