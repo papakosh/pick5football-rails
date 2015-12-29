@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20151204143753) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "match_weeks", force: true do |t|
     t.string   "year"
     t.string   "week"
@@ -36,6 +39,6 @@ ActiveRecord::Schema.define(version: 20151204143753) do
     t.datetime "updated_at"
   end
 
-  add_index "matches", ["match_week_id"], name: "index_matches_on_match_week_id"
+  add_index "matches", ["match_week_id"], name: "index_matches_on_match_week_id", using: :btree
 
 end
