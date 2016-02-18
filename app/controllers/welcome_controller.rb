@@ -14,7 +14,6 @@ class WelcomeController < ApplicationController
         session["user_id"] = user_id
         session["year"] = "2015"
         return true
-      end
   	end
   end
 end
