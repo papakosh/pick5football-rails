@@ -1,0 +1,28 @@
+<table border = "1">
+		<th>Week</th>
+		<th>Your <%= "#{@year}" %> Picks</th>
+		<th>Status</th>
+		<th colspan="4">Actions</th>
+
+<% @pickDisplayDataArray.each do |pick| %>
+	<tr>
+		<td><%= "#{pick.match_week_name}" %></td>
+		<td><%= "#{pick.teams}" %></td>
+		<td>
+			<% if pick.submitted %>
+				<%= "Submitted" %>
+			<% else %>
+				<%= "Not Submitted" %>
+			<% end %>
+		</td>
+		<td><%= link_to_if(pick.new_link, 'New' , new_pick_path(:match_week_id => pick.match_week_id)) %></td>
+		<td><%= link_to_if(pick.edit_link, 'Edit', edit_pick_path(:id => pick.pick_id)) %></td>
+		<td><%= link_to_if(pick.delete_link,'Delete', pick_path(:id => pick.pick_id), method: :delete, data: {confirm: 'Are you sure?'}) %>
+   		<td><%= link_to_if(pick.submit_link, 'Submit', pick_submit_picks_path(:pick_id => pick.pick_id)) %>
+	</tr>
+			
+<% end %>
+</table>	
+<br>
+<br>
+<%= link_to 'Main Page', controller: 'welcome' %>

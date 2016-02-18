@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<week>
+  <number>2</number>
+  <match>
+    <team1>Carolina Panthers</team1>
+    <team2>Cleveland Browns</team2>
+    <home>Cleveland</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>9/20</date>
+    <time>1:00 ET</time>
+  </match>
+  <match>
+    <team1>Miami Dolphins</team1>
+    <team2>Jacksonville Jaguars</team2>
+    <home>Jacksonville</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>9/20</date>
+    <time>1:00 ET</time>
+  </match>
+</week>

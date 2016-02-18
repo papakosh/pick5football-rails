@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  wins: 1
+  year: MyString
+  match_week_id: 
+  user_id: 
+
+two:
+  wins: 1
+  year: MyString
+  match_week_id: 
+  user_id: 

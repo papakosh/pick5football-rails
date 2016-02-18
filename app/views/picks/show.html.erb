@@ -1,0 +1,38 @@
+<h2>Submitted Picks</h2>
+<br>
+<table border = "1" cellpadding = "5">
+	<th>Week</th>
+	<th><%= @users[0].name.split(' ').first %></th>
+	<th><%= @users[1].name.split(' ').first %></th>
+	<th><%= @users[2].name.split(' ').first %></th>
+	<th colspan="2">Actions</th>
+	
+	<% @submittedPicksArray.each do |submittedPicks| %>
+	<tr>
+		<td><%= submittedPicks.week %></td>
+		<td><% if submittedPicks.userPicksSubmitted[0].submitted %>
+					<%= "Yes" %>
+				<% else %>
+					<%= "No" %>		
+			<% end %>
+		</td>
+		<td><% if submittedPicks.userPicksSubmitted[1].submitted %>
+					<%= "Yes" %>
+				<% else %>
+					<%= "No" %>
+			<% end %>
+		</td>
+		<td><% if submittedPicks.userPicksSubmitted[2].submitted %>
+					<%= "Yes" %>
+				<% else %>
+					<%= "No" %>
+			<% end %>
+		</td>
+		<td><%= link_to 'Generate' , new_pick_path(:match_week_id => '1') %></td>
+		<td><%= link_to 'Score' , new_pick_path(:match_week_id => '1') %></td>
+	</tr>
+	<% end %>
+</table>
+<br>
+<br>
+<%= link_to 'Main Page', controller: 'welcome' %>

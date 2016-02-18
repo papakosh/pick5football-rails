@@ -1,0 +1,27 @@
+<h2>Current Standings</h2>
+<br>
+<table border = "1" cellpadding = "5">
+	<th>Week</th>
+	<th><%= @users[0].name.split(' ').first %></th>
+	<th><%= @users[1].name.split(' ').first %></th>
+	<th><%= @users[2].name.split(' ').first %></th>
+	<% @weeklyStandingsArray.each do |weeklyStandings| %>
+		<tr>
+			<td><%= weeklyStandings.week %></td>
+			<td align="center"><%= weeklyStandings.userStandings[0].wins %></td>
+			<td align="center"><%= weeklyStandings.userStandings[1].wins %></td>
+			<td align="center"><%= weeklyStandings.userStandings[2].wins %></td>
+		</tr>
+	<% end %>
+	<tr colspan = "4">
+	<tr> 
+		<td>Totals</td>
+		<td align="center"><%= "#{@userTotals[0]}" %></td>
+		<td align="center"><%= "#{@userTotals[1]}" %></td>
+		<td align="center"><%= "#{@userTotals[2]}" %></td>
+	<tr>
+</table>
+
+<br>
+<br>
+<%= link_to 'Main Page', controller: 'welcome' %>

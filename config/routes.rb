@@ -4,10 +4,15 @@ Rails.application.routes.draw do
   resources :match_weeks do
     get 'to_xml'
     get 'to_html'
-     
-    #post 'match_weeks', :action => :to_xml
-    #resources :matches
   end
+
+  resources :picks do
+    get 'submit_picks'
+  end
+
+  get 'picks/submitted_picks'
+
+  resources :standings
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

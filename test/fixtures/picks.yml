@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  teams: MyText
+  submitted: false
+  user_id: 
+  matchweek_id: 
+
+two:
+  teams: MyText
+  submitted: false
+  user_id: 
+  matchweek_id: 

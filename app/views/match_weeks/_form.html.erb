@@ -1,0 +1,30 @@
+    <%= select_tag "year", options_for_select(MatchesController::YEARS, "#{@year}"), :name => "year" %>
+    <%= select_tag "week", options_for_select(MatchesController::WEEKS, "#{@week}"), :name => "week" %>
+    <br>
+    <br>
+    <% @matchEntryArray.each_with_index do |match, index| %>
+        <b><%= label_tag "Match #{index+1}" %></b>
+        <%= label_tag 'Team 1' %>
+        <%= select_tag "team1", options_for_select(MatchesController::TEAMS, "#{match.team1}"), :name => "match#{index}_team1" %>
+        <br>
+        <%= label_tag 'Team 2' %>
+        <%= select_tag "team2", options_for_select(MatchesController::TEAMS, "#{match.team2}"), :name => "match#{index}_team2" %>
+        <br>
+        <%= label_tag 'Home' %>
+        <%= text_field_tag "home_team", "#{match.hometeam}", :name => "match#{index}_hometeam" %>
+        <br>
+        <%= label_tag 'Favored' %>
+        <%= text_field_tag "favored_team", "#{match.favoredteam}", :name => "match#{index}_favoredteam" %>
+        <br>
+        <%= label_tag 'Spread' %>
+        <%= text_field_tag "spread", "#{match.spread}", :name => "match#{index}_spread" %>
+        <br>
+        <%= label_tag 'Date' %>
+        <%= text_field_tag "date", "#{match.date}", :name => "match#{index}_date" %>
+        <br>
+        <%= label_tag 'Time' %>
+        <%= text_field_tag "time", "#{match.time}", :name => "match#{index}_time" %>
+        <br>
+        <br>
+    <% end %>
+    

@@ -1,0 +1,39 @@
+<h2>Make Your <%= "#{@pickSelectionArray[0].week}" %> Picks</h2> 
+    <%= hidden_field_tag 'match_week_id', params[:match_week_id] %>
+    <br>
+    <% @pickSelectionArray.each_with_index do |pick, index| %>
+        <span><b><%= "Match #{index+1}" %></b></span>
+        <table border = "1">
+            <tr>
+                <td width = "50">
+                   <%= image_tag "/images/#{pick.team1_logo}_logo.gif", :width =>'48', :height => '48' %>
+                </td>
+                <td width = "175">
+                    <span><%= "#{pick.team1}" %></span>
+                </td>
+                <td>
+                    <%= radio_button_tag "match_#{index}", "#{pick.team1}", pick.team1 == pick.selection %>
+                </td>
+            </tr>
+            <tr>
+                <td width = "50">
+                   <%= image_tag "/images/#{pick.team2_logo}_logo.gif", :width =>'48', :height => '48' %>
+                </td>
+                <td width = "175">
+                    <span><%= "#{pick.team2}" %></span><br>
+                </td>
+                <td>
+                    <%= radio_button_tag "match_#{index}", "#{pick.team2}", pick.team2 == pick.selection %>
+                </td>
+            </tr>
+            <tr>
+                <td width = "225" colspan="2"/>
+                <td>
+                    <%= radio_button_tag "match_#{index}", "None", pick.selection.nil? %>
+                </td>
+            </tr>
+            
+        </table>
+        <br>
+    <% end %>
+    <br>

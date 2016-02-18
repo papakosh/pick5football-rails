@@ -1,0 +1,5 @@
+<%= form_for(@pickSelectionArray, :url => pick_path, :html => {:method => :put}) do |f| %>
+    <%= render 'form' %>
+    <%= f.submit "Save" %>
+    <%= f.submit "Cancel", controller: 'picks' %>
+<% end %>

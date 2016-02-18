@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151204143753) do
+ActiveRecord::Schema.define(version: 20160108184309) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -40,5 +40,37 @@ ActiveRecord::Schema.define(version: 20151204143753) do
   end
 
   add_index "matches", ["match_week_id"], name: "index_matches_on_match_week_id", using: :btree
+
+  create_table "picks", force: true do |t|
+    t.text     "teams"
+    t.boolean  "submitted"
+    t.integer  "user_id"
+    t.integer  "match_week_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "picks", ["match_week_id"], name: "index_picks_on_match_week_id", using: :btree
+  add_index "picks", ["user_id"], name: "index_picks_on_user_id", using: :btree
+
+  create_table "standings", force: true do |t|
+    t.integer  "wins"
+    t.string   "year"
+    t.integer  "match_week_id"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "standings", ["match_week_id"], name: "index_standings_on_match_week_id", using: :btree
+  add_index "standings", ["user_id"], name: "index_standings_on_user_id", using: :btree
+
+  create_table "users", force: true do |t|
+    t.string   "user_id"
+    t.string   "name"
+    t.string   "user_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

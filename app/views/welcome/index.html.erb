@@ -1,2 +1,9 @@
-<h1>Welcome to Pick 5 Football</h1>
-<%= link_to 'View Weekly Matches', controller: 'match_weeks' %>
+<h1>Welcome to Pick 5 Football, <%= "#{@name}"%></h1>
+<% if @user_type == 'admin' %>
+<%= link_to 'View All Weekly Matches', controller: 'match_weeks' %><br>
+<%= link_to 'View All Submitted Picks', picks_submitted_picks_path %><br>
+<% end %>
+<%= link_to 'View Your Weekly Picks', controller: 'picks' %>
+<br>
+<%= link_to 'View Current Standings', controller: 'standings' %>
+
