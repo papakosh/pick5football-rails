@@ -9,11 +9,11 @@ class WelcomeController < ApplicationController
 
   def authenticate
   	puts 'authenticate....'
-  	authenticate_or_request_with_http_basic do |user_id|
-  		if User.authenticate(user_id).present?
-        session["user_id"] = user_id
+  	#authenticate_or_request_with_http_basic do |user_id|
+  	#	if User.authenticate(user_id).present?
+        session["user_id"] = "brian.navarro@gmail.com"
         session["year"] = "2015"
-        return true
-  	end
+      #  return true
+  	#end
   end
 end
