@@ -38,5 +38,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'coffee-script-source', '1.8.0'
 gem 'nokogiri'
 gem 'launchy'
-gem 'pg', '0.18.4'
+gem 'pg'
 ruby '2.0.0'
