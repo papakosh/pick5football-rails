@@ -1,0 +1,9 @@
+development:
+  adapter: postgresql
+  database: db/development
+  username: navman
+  password: test
+  host: localhost
+  encoding: UTF8
+  pool: 5
+  timeout: 5000

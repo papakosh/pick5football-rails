@@ -2,147 +2,147 @@
 <week>
   <number>15</number>
   <match>
-    <team1>St. Louis Rams</team1>
-    <team2>Tampa Bay Buccaneers</team2>
-    <home>St. Louis</home>
-    <spread>2.5</spread>
-    <favored>St. Louis</favored>
-    <date>12/17</date>
-    <time>8:25 ET</time>
-  </match>
-  <match>
     <team1>New York Jets</team1>
-    <team2>Dallas Cowboys</team2>
-    <home>Dallas</home>
-    <spread>3.0</spread>
-    <favored>New York Jets</favored>
-    <date>12/19</date>
-    <time>8:25 ET</time>
-  </match>
-  <match>
-    <team1>Minnesota Vikings</team1>
-    <team2>Chicago Bears</team2>
-    <home>Minnesota</home>
-    <spread>5.5</spread>
-    <favored>Minnesota</favored>
-    <date>12/20</date>
-    <time>1:00 ET</time>
-  </match>
-  <match>
-    <team1>Jacksonville Jaguars</team1>
-    <team2>Atlanta Falcons</team2>
-    <home>Jacksonville</home>
-    <spread>3.0</spread>
-    <favored>Jacksonville</favored>
-    <date>12/20</date>
-    <time>1:00 ET</time>
-  </match>
-  <match>
-    <team1>Houston Texans</team1>
-    <team2>Indianapolis Colts</team2>
-    <home>Indianapolis</home>
-    <spread>0.0</spread>
-    <favored>Houston</favored>
-    <date>12/20</date>
-    <time>1:00 ET</time>
-  </match>
-  <match>
-    <team1>Kansas City Chiefs</team1>
     <team2>Baltimore Ravens</team2>
     <home>Baltimore</home>
-    <spread>7.5</spread>
-    <favored>Kansas City</favored>
-    <date>12/20</date>
-    <time>1:00 ET</time>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>12/12/2019</date>
+    <time>8:20 PM ET</time>
+  </match>
+  <match>
+    <team1>Chicago Bears</team1>
+    <team2>Green Bay Packers</team2>
+    <home>Green Bay</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>12/15/2019</date>
+    <time>1:00 PM ET</time>
   </match>
   <match>
     <team1>Buffalo Bills</team1>
-    <team2>Washington Redskins</team2>
-    <home>Washington</home>
-    <spread>1.0</spread>
-    <favored>Buffalo</favored>
-    <date>12/20</date>
-    <time>1:00 ET</time>
+    <team2>Pittsburgh Steelers</team2>
+    <home>Pittsburgh</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>12/15/2019</date>
+    <time>1:00 PM ET</time>
   </match>
   <match>
     <team1>New England Patriots</team1>
-    <team2>Tennessee Titans</team2>
-    <home>New England</home>
-    <spread>14.0</spread>
-    <favored>New England</favored>
-    <date>12/20</date>
-    <time>1:00 ET</time>
-  </match>
-  <match>
-    <team1>Arizona Cardinals</team1>
-    <team2>Philadelphia Eagles</team2>
-    <home>Philadelphia</home>
-    <spread>3.5</spread>
-    <favored>Arizona</favored>
-    <date>12/20</date>
-    <time>8:30 ET</time>
-  </match>
-  <match>
-    <team1>Carolina Panthers</team1>
-    <team2>New York Giants</team2>
-    <home>New York</home>
-    <spread>5.0</spread>
-    <favored>Carolina</favored>
-    <date>12/20</date>
-    <time>1:00 ET</time>
+    <team2>Cincinnati Bengals</team2>
+    <home>Cincinnati</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>12/15/2019</date>
+    <time>1:00 PM ET</time>
   </match>
   <match>
     <team1>Seattle Seahawks</team1>
-    <team2>Cleveland Browns</team2>
-    <home>Seattle</home>
-    <spread>14.5</spread>
-    <favored>Seattle</favored>
-    <date>12/20</date>
-    <time>4:05 ET</time>
+    <team2>Carolina Panthers</team2>
+    <home>Carolina</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>12/15/2019</date>
+    <time>1:00 PM ET</time>
   </match>
   <match>
-    <team1>Green Bay Packers</team1>
+    <team1>Houston Texans</team1>
+    <team2>Tennessee Titans</team2>
+    <home>Tennessee</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>12/15/2019</date>
+    <time>1:00 PM ET</time>
+  </match>
+  <match>
+    <team1>Miami Dolphins</team1>
+    <team2>New York Giants</team2>
+    <home>New York Giants</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>12/15/2019</date>
+    <time>1:00 PM ET</time>
+  </match>
+  <match>
+    <team1>Philadelphia Eagles</team1>
+    <team2>Washington Redskins</team2>
+    <home>Washington</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>12/15/2019</date>
+    <time>1:00 PM ET</time>
+  </match>
+  <match>
+    <team1>Denver Broncos</team1>
+    <team2>Kansas City Chiefs</team2>
+    <home>Kansas City</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>12/15/2019</date>
+    <time>1:00 PM ET</time>
+  </match>
+  <match>
+    <team1>Tampa Bay Buccaneers</team1>
+    <team2>Detroit Lions</team2>
+    <home>Detroit</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>12/15/2019</date>
+    <time>1:00 PM ET</time>
+  </match>
+  <match>
+    <team1>Cleveland Browns</team1>
+    <team2>Arizona Cardinals</team2>
+    <home>Arizona</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>12/15/2019</date>
+    <time>4:05 PM ET</time>
+  </match>
+  <match>
+    <team1>Jacksonville Jaguars</team1>
     <team2>Oakland Raiders</team2>
     <home>Oakland</home>
-    <spread>3.0</spread>
-    <favored>Green Bay</favored>
-    <date>12/20</date>
-    <time>4:05 ET</time>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>12/15/2019</date>
+    <time>4:05 PM ET</time>
   </match>
   <match>
-    <team1>San Diego Chargers</team1>
-    <team2>Miami Dolphins</team2>
-    <home>San Diego</home>
-    <spread>1.5</spread>
-    <favored>San Diego</favored>
-    <date>12/20</date>
-    <time>4:25 ET</time>
+    <team1>Los Angeles Rams</team1>
+    <team2>Dallas Cowboys</team2>
+    <home>Dallas</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>12/15/2019</date>
+    <time>4:25 PM ET</time>
   </match>
   <match>
-    <team1>Pittsburgh Steelers</team1>
-    <team2>Denver Broncos</team2>
-    <home>Pittsburgh</home>
-    <spread>6.5</spread>
-    <favored>Pittsburgh</favored>
-    <date>12/20</date>
-    <time>4:25 ET</time>
-  </match>
-  <match>
-    <team1>Cincinnati Bengals</team1>
+    <team1>Atlanta Falcons</team1>
     <team2>San Francisco 49ers</team2>
     <home>San Francisco</home>
-    <spread>4.5</spread>
-    <favored>Cincinnati</favored>
-    <date>12/20</date>
-    <time>4:25 ET</time>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>12/15/2019</date>
+    <time>4:25 PM ET</time>
   </match>
   <match>
-    <team1>New Orleans Saints</team1>
-    <team2>Detroit Lions</team2>
+    <team1>Minnesota Vikings</team1>
+    <team2>Los Angeles Chargers</team2>
+    <home>Los Angeles Chargers</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>12/15/2019</date>
+    <time>8:20 PM ET</time>
+  </match>
+  <match>
+    <team1>Indianapolis Colts</team1>
+    <team2>New Orleans Saints</team2>
     <home>New Orleans</home>
-    <spread>3.0</spread>
-    <favored>New Orleans</favored>
-    <date>12/21</date>
-    <time>8:30 ET</time>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>12/16/2019</date>
+    <time>8:15 PM ET</time>
   </match>
 </week>

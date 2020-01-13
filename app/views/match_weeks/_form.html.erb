@@ -3,7 +3,7 @@
     <br>
     <br>
     <% @matchEntryArray.each_with_index do |match, index| %>
-        <b><%= label_tag "Match #{index+1}" %></b>
+        <b><%= label_tag "Match #{index+1}" %></b><br>
         <%= label_tag 'Team 1' %>
         <%= select_tag "team1", options_for_select(MatchesController::TEAMS, "#{match.team1}"), :name => "match#{index}_team1" %>
         <br>

@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<week>
+  <number>9</number>
+  <match>
+    <team1>San Francisco 49ers</team1>
+    <team2>Arizona Cardinals</team2>
+    <home>Arizona</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>10/31/2019</date>
+    <time>8:20 PM ET</time>
+  </match>
+  <match>
+    <team1>Houston Texans</team1>
+    <team2>Jacksonville Jaguars</team2>
+    <home>Jacksonville</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>11/3/2019</date>
+    <time>9:30 AM ET</time>
+  </match>
+  <match>
+    <team1>Chicago Bears</team1>
+    <team2>Philadelphia Eagles</team2>
+    <home>Philadelphia</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>11/3/2019</date>
+    <time>1:00 PM ET</time>
+  </match>
+  <match>
+    <team1>Minnesota Vikings</team1>
+    <team2>Kansas City Chiefs</team2>
+    <home>Kansas City</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>11/3/2019</date>
+    <time>1:00 PM ET</time>
+  </match>
+  <match>
+    <team1>Indianapolis Colts</team1>
+    <team2>Pittsburgh Steelers</team2>
+    <home>Pittsburgh</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>11/3/2019</date>
+    <time>1:00 PM ET</time>
+  </match>
+  <match>
+    <team1>New York Jets</team1>
+    <team2>Miami Dolphins</team2>
+    <home>Miami</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>11/3/2019</date>
+    <time>1:00 PM ET</time>
+  </match>
+  <match>
+    <team1>Washington Redskins</team1>
+    <team2>Buffalo Bills</team2>
+    <home>Buffalo</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>11/3/2019</date>
+    <time>1:00 PM ET</time>
+  </match>
+  <match>
+    <team1>Tennessee Titans</team1>
+    <team2>Carolina Panthers</team2>
+    <home>Carolina</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>11/3/2019</date>
+    <time>1:00 PM ET</time>
+  </match>
+  <match>
+    <team1>Detroit Lions</team1>
+    <team2>Oakland Raiders</team2>
+    <home>Oakland</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>11/3/2019</date>
+    <time>4:05 PM ET</time>
+  </match>
+  <match>
+    <team1>Tampa Bay Buccaneers</team1>
+    <team2>Seattle Seahawks</team2>
+    <home>Seattle</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>11/3/2019</date>
+    <time>4:05 PM ET</time>
+  </match>
+  <match>
+    <team1>Green Bay Packers</team1>
+    <team2>Los Angeles Chargers</team2>
+    <home>Los Angeles Chargers</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>11/3/2019</date>
+    <time>4:25 PM ET</time>
+  </match>
+  <match>
+    <team1>Cleveland Browns</team1>
+    <team2>Denver Broncos</team2>
+    <home>Denver</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>11/3/2019</date>
+    <time>4:25 PM ET</time>
+  </match>
+  <match>
+    <team1>New England Patriots</team1>
+    <team2>Baltimore Ravens</team2>
+    <home>Baltimore</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>11/3/2019</date>
+    <time>8:20 PM ET</time>
+  </match>
+  <match>
+    <team1>Dallas Cowboys</team1>
+    <team2>New York Giants</team2>
+    <home>New York Giants</home>
+    <spread>0.0</spread>
+    <favored>None</favored>
+    <date>11/4/2019</date>
+    <time>8:15 PM ET</time>
+  </match>
+</week>

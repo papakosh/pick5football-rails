@@ -1,4 +1,4 @@
-class CreateStandings < ActiveRecord::Migration
+class CreateStandings < ActiveRecord::Migration[4.2]
   def change
     create_table :standings do |t|
       t.integer :wins

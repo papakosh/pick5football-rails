@@ -1,4 +1,4 @@
-class CreateMatchWeeks < ActiveRecord::Migration
+class CreateMatchWeeks < ActiveRecord::Migration[4.2]
   def change
     create_table :match_weeks do |t|
       t.string :year
